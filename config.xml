@@ -2,18 +2,18 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.ardaykaal.lms"
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>Moodle</name>
+    <name>ArdayKaal</name>
 
     <description>
-        Moodle official app
+       ArdayKaal waa barnaamij casri ah oo ardayda u fududeynaya waxbarashadooda. Barnaamijka waxaa uu ardayda ka caawinayaa inay guul ka gaaraan imtixaanada
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://www.vibidsoft.com" email="harshil@vibidsoft.com">
+       Harshil Shah Vibidsoft
     </author>
 
     <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
@@ -162,6 +162,7 @@
     <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='Moodle']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
+
 
     <!-- See MOBILE-892 -->
     <preference name="permissions" value="none"/>
