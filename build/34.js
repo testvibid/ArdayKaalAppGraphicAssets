@@ -133,7 +133,7 @@ var CoreLoginEmailSignupPage = /** @class */ (function () {
         };
         this.isMinor = false; // Whether the user is minor age.
         this.siteUrl = navParams.get('siteUrl');
-        this.deviceid = '123';
+        this.deviceid = this.device.uuid;
         // Create the ageVerificationForm.
         this.ageVerificationForm = this.fb.group({
             age: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required]
