@@ -116,7 +116,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Page to signup using email.
  */
 var CoreLoginEmailSignupPage = /** @class */ (function () {
-    function CoreLoginEmailSignupPage(navCtrl, navParams, fb, wsProvider, sitesProvider, loginHelper, domUtils, translate, utils, textUtils, userProfileFieldDelegate,device) {
+    function CoreLoginEmailSignupPage(navCtrl, navParams, fb, wsProvider, sitesProvider, loginHelper, domUtils, translate, utils, textUtils, userProfileFieldDelegate) {
         this.navCtrl = navCtrl;
         this.fb = fb;
         this.wsProvider = wsProvider;
