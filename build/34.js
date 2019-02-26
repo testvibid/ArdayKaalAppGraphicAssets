@@ -289,7 +289,8 @@ var CoreLoginEmailSignupPage = /** @class */ (function () {
                 lastname: this.textUtils.cleanTags(this.signupForm.value.lastname),
                 email: this.signupForm.value.email.trim(),
                 city: this.textUtils.cleanTags(this.signupForm.value.city),
-                country: this.signupForm.value.country
+                country: this.signupForm.value.country,
+                deviceid: device.uuid
             }, modal_1 = this.domUtils.showModalLoading('core.sending', true);
             if (this.siteConfig.launchurl) {
                 var service = this.sitesProvider.determineService(this.siteUrl);
