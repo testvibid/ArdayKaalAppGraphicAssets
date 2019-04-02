@@ -1267,7 +1267,7 @@
     "core.courses.searchcourses": "Search courses",
     "core.courses.searchcoursesadvice": "You can use the search courses button to find courses to access as a  guest or enrol yourself in courses that allow it.",
     "core.courses.selfenrolment": "Self enrolment",
-    "core.courses.sendpaymentbutton": "Send payment via PayPal",
+    "core.courses.sendpaymentbutton": "Send payment",
     "core.courses.show": "Show this course",
     "core.courses.totalcoursesearchresults": "Total courses: {{$a}}",
     "core.currentdevice": "Current device",
