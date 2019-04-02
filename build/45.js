@@ -311,6 +311,8 @@ var CoreCoursesCoursePreviewPage = /** @class */ (function () {
      */
     CoreCoursesCoursePreviewPage.prototype.paypalEnrol = function () {
         var _this = this;
+        _this.domUtils.showAlert("Wali Popup", "Hello Change here");
+        
         var window, hasReturnedFromPaypal = false, inAppLoadSubscription, inAppFinishSubscription, inAppExitSubscription, appResumeSubscription;
         var urlLoaded = function (event) {
             if (event.url.indexOf(_this.paypalReturnUrl) != -1) {
